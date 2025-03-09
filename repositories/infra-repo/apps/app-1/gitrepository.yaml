@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: example-app-1
-  namespace: default
+  namespace: nginx-test-app
 spec:
   interval: 1m0s
   ref:

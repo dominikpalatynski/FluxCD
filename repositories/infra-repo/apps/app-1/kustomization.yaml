@@ -2,7 +2,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: example-app-1
-  namespace: default
+  namespace: nginx-test-app
 spec:
   interval: 1m
   path: "./repositories/app-1/deploy"
